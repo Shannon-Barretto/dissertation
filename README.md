@@ -35,3 +35,4 @@ Research on Alzheimer’s Disease (AD) is constrained by limited and heterogeneo
 
 
 ## License
+This project is licensed under the [MIT License](LICENSE).

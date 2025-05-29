@@ -18,3 +18,20 @@ Research on Alzheimer’s Disease (AD) is constrained by limited and heterogeneo
 ├── data/           # Raw datasets
 └── README.md       # Project overview
 ```
+
+
+## Results
+
+
+## ## Technologies Used
+
+- Programming Language: Python 3.10
+- **Libraries**:
+  - `pandas`, `numpy`, `matplotlib`, `seaborn` – for data manipulation and visualization
+  - `scipy`, `scikit-learn` – for statistical analysis and machine learning utilities
+  - `ctgan` – for synthetic tabular data generation using GANs
+  - `hyperopt` – for Bayesian hyperparameter optimization
+- Tools: Jupyter Notebook, Git
+
+
+## License

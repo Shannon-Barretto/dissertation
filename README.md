@@ -20,7 +20,7 @@ Research on Alzheimer’s Disease (AD) is constrained by limited and heterogeneo
 ├── code/
 │   ├── syntheticdata.ipynb                   # Main Jupyter notebook with full pipeline
 │   ├── initailSetup.ipynb                    # Jupyter checkpoint files (ignore)
-|   ├── dataprocessing.ipynb                  # Jupyter checkpoint files (ignore)
+│   ├── dataprocessing.ipynb                  # Jupyter checkpoint files (ignore)
 ├── code for report/                          # Supplementary scripts used to generate figures for the dissertation report
 ├── data/                                     # Raw datasets
 └── README.md                                 # Project overview

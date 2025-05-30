@@ -22,6 +22,8 @@ Research on Alzheimer’s Disease (AD) is constrained by limited and heterogeneo
 
 ## Results
 
+### Performance difference between CTGAN and Gaussain Copula
+
 ![image](https://github.com/user-attachments/assets/53f5dde5-0a12-43b5-b9f4-973e70ac07d4)
 
 ![image](https://github.com/user-attachments/assets/77530c01-07fa-425e-b878-3660b05fce3c)
@@ -46,6 +48,18 @@ compared to Gaussian Copula.
 We took the mean of each metric across all biomarkers, and compared the performance
 between Gaussian Copula and CTGAN. This can be seen in the figure titled `Gaussian Copula vs CTGAN Metrics`.  Gaussian Copula clearly dominates.
 
+
+### Bayesian Optimzation results
+
+![image](https://github.com/user-attachments/assets/eb1c160c-101d-42e5-919b-a92f23b8d62b)
+
+The rapid convergence evident in above right figure, quantitatively demonstrates the superior optimization landscape of parametric copula models for this application domain. In the left figure, the loss oscillates between
+≈ 0.5−5.5 at initial iterations, and starts to converge after ≈ 100 iterations, with loss oscillating between
+≈ 0.5 − 1.5 for most biomarkers. In the right figure, at the initial iterations itself, the loss oscillates between
+≈ 0.1−2.5, and within 25 iterations, the loss is tending to converge and oscillate between ≈ 1.75−0.75.
+A key insight from the right figure is that PLASMAPTAU181 (purple), for majority of the iteration achieved
+the lowest loss, suggesting it has statistical properties that are more amenable to accurate modeling
+with the Gaussian Copula approach.
 
 ## Technologies Used
 

@@ -3,7 +3,10 @@
 ## Overview
 
 This repository contains the code, data, and documentation associated with my Bachelor's dissertation titled `Generation and Evaluation of High-Fidelity Synthetic Biomarker Data for Alzheimer’s Disease Research`. 
-The research focuses on generating high-fidelity synthetic datasets for Alzheimer’s Disease and Mild Cognitive Impairment biomarkers using advanced generative models, aiming to develop and validate a novel, extensible evaluation framework to rigorously benchmark synthetic-data generators in biomedical contexts and accelerate reliable, reproducible advances in AD/MCI diagnostics and predictive modeling.
+The research focuses on generating high-fidelity synthetic datasets for Alzheimer’s Disease and Mild Cognitive Impairment biomarkers using advanced generative models, aiming to develop and validate a novel, extensible evaluation framework to rigorously benchmark synthetic-data generators in biomedical contexts and accelerate reliable, reproducible advances in AD/MCI diagnostics and predictive modeling.<br>
+<br>
+Link to the dissertation report: [Report](https://drive.google.com/file/d/1zfG0yiQMba3Kxnu-NPAWoyyJjEAsbNvk/view?usp=sharing)<br>
+Link to the screencast: [Screencast](https://drive.google.com/file/d/1EUF15sOUdNIuf8ga1gg5z4IZMcnsrl_Z/view?usp=sharing)
 
 
 ## Abstract
@@ -14,11 +17,14 @@ Research on Alzheimer’s Disease (AD) is constrained by limited and heterogeneo
 ## Project Structure
 
 ```bash
-├── code/           # Jupyter notebooks for analysis
-├── data/           # Raw datasets
-└── README.md       # Project overview
+├── code/
+│   ├── syntheticdata.ipynb                   # Main Jupyter notebook with full pipeline
+│   ├── initailSetup.ipynb                    # Jupyter checkpoint files (ignore)
+|   ├── dataprocessing.ipynb                  # Jupyter checkpoint files (ignore)
+├── code for report/                          # Supplementary scripts used to generate figures for the dissertation report
+├── data/                                     # Raw datasets
+└── README.md                                 # Project overview
 ```
-
 
 ## Results
 
